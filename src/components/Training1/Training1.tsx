@@ -1,9 +1,11 @@
 import { Title } from "../Common/Title";
 
-export function Training1() {
+function Training1() {
   return (
     <div className="w-full px-10">
-      <Title value="MDR" />
+      <Title text="exo 1" hasFinished={false} />
     </div>
   );
 }
+
+export { Training1 };
